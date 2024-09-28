@@ -1,4 +1,21 @@
+*{
+    outline: 2px solid red;
+    box-sizing: border-box;
+}
+.flex-header{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+}
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
+    flex: 1 1 auto;
+
+}
+.links{    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 1 1 auto;
+    margin-left: auto;
 }
