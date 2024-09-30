@@ -52,5 +52,18 @@
     color: #E5E7EB;
 }
 .hero-button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.hero-button:hover{
+    background-color: #E5E7EB;
     color: #3882F6;
 }
