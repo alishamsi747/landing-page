@@ -1,18 +1,18 @@
 *{
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+    font-family: 'Helvetica';
 }
 
 .header-hero{
     display: flex;
     flex-direction: column;
-    font-family: 'Helvetica';
     background-color: #1F2937;
 }
 
 .header{
     display: flex;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px 70px;
     justify-content: space-between;
 }
 
@@ -25,14 +25,13 @@
 .header-link{
     display: flex;
     gap: 20px;
-
 }
 
 .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 80px 70px;
 }
 
 .hero-text{
@@ -66,4 +65,54 @@
 .hero-button:hover{
     background-color: #E5E7EB;
     color: #3882F6;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mission{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 85px 48px;
+}
+
+.mission-statement{
+    margin: 25px;
+    padding: 25px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.cta-text{
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 200px;
 }
