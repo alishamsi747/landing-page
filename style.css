@@ -1,11 +1,11 @@
 *{
     outline: 2px solid red;
     box-sizing: border-box;
+    background-color: #1F2937;
 }
 .flex-header{
     display: flex;
     align-items: center;
-    background-color: #1F2937;
 }
 .header{
     background-color: #1F2937;
@@ -18,19 +18,20 @@
     background-color: #1F2937;
     color: #F9FAF8;
     flex: 1 1 auto;
-    margin-left: auto;
+    justify-content: flex-end;
 
-}
-.hero{
-    display: flex;
-    background-color: #1F2937;
 }
 .flex-hero{
     display: flex;
-    flex-direction: column;
     background-color: #1F2937;
+    align-items: center;
+    justify-content: space-evenly;
 }
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-text{
     color: #F9FAF8;
-    padding-left: 150px;
 }
